@@ -1,4 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400;700&display=swap');
+/*
+font-family: 'Atkinson Hyperlegible', sans-serif;
+font-family: 'Cinzel', serif;
+PALETTE
+    black  #090809
+    white  #FFFCF9
+    red    #F80000
+    blue   #B1EDE8
+    violet #9F9ED0
+*/
 html {
     height: 100%;
     width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
+.rli {
+    float: left;
+}
+.rli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.46vh;
+    text-decoration: none;
+}
+.rli a:hover {
+    background-color: #9F9ED0;
+}
+.mainButton {
+    font-family: 'Cinzel', serif;
+    background-color: #090809;
+    color: #FFFCF9;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5.1vh;  
+}
+.nv {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+.A {
+    float: left;
+    height: 9.8vh;
+    width: 9.8vh;
+}
+.indexbody {
+    margin: 0px;
+    padding: 0px;
+    background-color: #9F9ED0;
 }
