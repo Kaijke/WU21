@@ -100,3 +100,9 @@ body {
     height: 9.8vh;
     width: 9.8vh;
 }
+/* NÅGOT ROLIGT*/
+.nrBody {
+    background-color: #090809;
+    background-image: url(/img/wavesorigin.gif);
+    
+}
