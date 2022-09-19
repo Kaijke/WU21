@@ -67,14 +67,26 @@ body {
     float: left;
     height: 100%;
     width: calc(100% / 3);
-    border-right: 1px solid #090809;
+    border-right: 0.3vw dotted #090809;
     background-color: #B1EDE8;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 1.5vw;
 }
 .Big {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
     font-size: 3vh;
     color: #090809;
+    text-align: center;
+}
+.Bigger {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    font-size: 4vh;
+    color: #090809;
+    text-align: center;
 }
 .Small {
     font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -85,4 +97,5 @@ body {
     height: 100%;
     width: calc(100% / 3);
     background-color: #B1EDE8;
+
 }
