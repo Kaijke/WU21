@@ -40,62 +40,63 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 5.5vh; 
+    font-size: 5.55vh; 
 }
 .nv {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: bisque;
     background-image: url(/img/stars.gif);
     background-repeat: repeat-x;
-    background-size: 10vh;
-    
-
-} 
-.A {
-    float: left;
-    height: 9.8vh;
-    width: 9.8vh;
+    background-size: 18vh;
 }
 .indexbody {
     background-color: #9F9ED0;
     overflow: hidden;
 }
+
+/*DIV CLASSES*/
+
 .mainCollumn {
     float: left;
     height: 100%;
     width: calc(100% / 3);
-    border-right: 0.3vw dotted #090809;
-    background-color: #B1EDE8;
+    border-right: 0.3vw dotted #9F9ED0;
+    background-color: #090809;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     padding: 1.5vw;
 }
+
+/*TEXT CLASSES*/
+
 .Big {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
     font-size: 3vh;
-    color: #090809;
+    color: #FFFCF9;
     text-align: center;
 }
 .Bigger {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
     font-size: 4vh;
-    color: #090809;
+    color: #FFFCF9;
     text-align: center;
 }
 .Small {
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-size: 2.5vh;
+    font-size: 2vh;
+    color: #FFFCF9;
 }
-.lastCollumn {
-    float: left;
-    height: 100%;
-    width: calc(100% / 3);
-    background-color: #B1EDE8;
 
+/*MISC. CLASSES*/
+
+.A {
+    float: left;
+    height: 9.8vh;
+    width: 9.8vh;
 }
