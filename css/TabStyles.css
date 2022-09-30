@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400;700&display=swap');
+/*
+font-family: 'Atkinson Hyperlegible', sans-serif;
+font-family: 'Cinzel', serif;
+PALETTE
+    black  #090809
+    white  #FFFCF9
+    red    #F80000
+    blue   #B1EDE8
+    violet #9F9ED0
+*/
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+/*yay comentar*/
+.invisible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  
+  
+  .example-tabs-tabs__list {
+    margin: 0;
+    padding: 0;
+  }
+  .example-tabs-tabs__item {
+    display: inline-block;
+  }
+  
+  .example-tabs-tabs__link {
+    display: inline-block;
+    padding: 1em  2em;
+    background: #f2f2f2;
+    cursor: pointer;
+    color: #148297;
+  }
+  
+  [aria-selected="true"].example-tabs-tabs__link {
+    color: #000;
+  }
+  
+  .example-tabs-tabs__content {
+    background: #f2f2f2;
+    padding: 1em;
+  }
+  
+  [aria-hidden="true"].example-tabs-tabs__content {
+    display: none;
+  }
+  
+  #page {
+    width: 960px;
+    margin: 0 auto;
+  }
