@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/TabStyles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="TabFunction.js"></script>
+  </head>
+  <body>
+    <ul class="navbar">
+      <a href="index.html"><img src="img/final.png" alt="gif" class="A"></a>
+      <li class="liTab"><a href="historia.html" class="mainButton">Historia</a></li>
+      <li class="liTab"><a href="nu.html" class="mainButton">Nu</a></li>
+      <li class="liTab"><a href="framtiden.html" class="mainButton">Framtiden</a></li>
+  </ul>
+    <!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Jake')">Jake</button>
+  <button class="tablinks" onclick="openCity(event, 'Isaac')">Isaac</button>
+  <button class="tablinks" onclick="openCity(event, 'Jerry')">Jerry</button>
+  <a class="tablinks" onclick="openCity(event, 'main')" id="defaultOpen"></a>
+</div>
+<!-- Tab content -->
+<div id="Jake" class="tabcontent">
+  <h3>Jake</h3>
+  <p>Texthere</p>
+</div>
+
+<div id="Isaac" class="tabcontent">
+  <h3>Isaac</h3>
+  <p>Texthere</p>
+</div>
+
+<div id="Jerry" class="tabcontent">
+  <h3>Jerry</h3>
+  <p>Texthere</p>
+</div>
+<div id="main" class="tabcontent">
+  <h1>Tryck på en av tabbarna för att visa innehåll!</h1>
+</div>
+<script>document.getElementById("defaultOpen").click();</script>
+  </body>
+</html>

@@ -3,11 +3,11 @@
 font-family: 'Atkinson Hyperlegible', sans-serif;
 font-family: 'Cinzel', serif;
 PALETTE
-    black  #090809
-    white  #FFFCF9
-    red    #F80000
-    blue   #B1EDE8
-    violet #9F9ED0
+    #000807 black
+    #A2A3BB gray
+    #9395D3 dark violet
+    #B3B7EE light violet
+    #FBF9FF white
 */
 html {
     height: 100%;
@@ -19,19 +19,25 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.rli {
+.liTab {
     float: left;
 }
-.rli a {
+.liTab a {
     display: block;
     color: white;
     text-align: center;
     padding: 1.46vh;
     text-decoration: none;
+    transition: 0.3s;
 }
-.rli a:hover {
-    background-color: #9F9ED0;
+
+.liTab a:hover {
+    background-color: #B3B7EE;
+    color: black
+    
 }
+
+
 .mainButton{
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
@@ -42,7 +48,17 @@ body {
     display: inline-block;
     font-size: 5.55vh; 
 }
-.nv {
+.activeButton {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    background-color: #9395D3;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5.55vh; 
+}
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -58,6 +74,7 @@ body {
 }
 
 /*DIV CLASSES*/
+
 
 .mainCollumn {
     float: left;
@@ -99,10 +116,4 @@ body {
     float: left;
     height: 9.8vh;
     width: 9.8vh;
-}
-/* NÅGOT ROLIGT*/
-.nrBody {
-    background-color: #090809;
-    background-image: url(/img/wavesorigin.gif);
-    
 }
