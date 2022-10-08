@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Isaac Jake & Jerry</title>
-        <link rel="stylesheet" href="/css/styles.css">
-        <link rel="stylesheet" href="css/TabStyles.css">
-        <script src="TabFunction.js"></script>
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/TabStyles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <script src="TabFunction.js"></script>
+    <script>document.getElementById("defaultOpen").click();</script>
+  </head>
     <body class="indexbody">
-        <ul class="navbar">
-            <a href="index.html"><img src="img/final.png" alt="gif" class="A"></a>
+        <ul class="navbar"> <!--The Navigation bar oooo-->
+            <a href="index.html"><img src="img/HomeIcon.png" alt="gif" class="HomeIcon"></a>
             <li class="liTab"><a href="historia.html" class="activeButton">Historia</a></li> active
             <li class="liTab"><a href="nu.html" class="mainButton">Nu</a></li>
             <li class="liTab"><a href="framtiden.html" class="mainButton">Framtiden</a></li>
         </ul>
         <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'Jake')">Jake</button>
-            <button class="tablinks" onclick="openCity(event, 'Isaac')">Isaac</button>
-            <button class="tablinks" onclick="openCity(event, 'Jerry')">Jerry</button>
-            <a class="tablinks" onclick="openCity(event, 'main')" id="defaultOpen"></a>
+            <div class="filler"> 
+              <button class="tablinks" onclick="openTab(event, 'Jake')">Jake</button>
+              <button class="tablinks" onclick="openTab(event, 'Isaac')">Isaac</button>
+              <button class="tablinks" onclick="openTab(event, 'Jerry')">Jerry</button>
+                  <a class="tablinks" onclick="openTab(event, 'main')" id="defaultOpen"></a>
+            </div>
           </div>
           <!-- Tab content -->
           <div id="Jake" class="tabcontent">
             <h3>Jake</h3>
-            <p>Texthere</p>
+            <p>texthere</p>
           </div>
           
           <div id="Isaac" class="tabcontent">
@@ -36,7 +45,7 @@
             <p>Texthere</p>
           </div>
           <div id="main" class="tabcontent">
-            <h1>Tryck på en av tabbarna för att visa innehåll!</h1>
+              <h1 class="instructions">TRYCK PÅ EN AV FLIKARNA FÖR ATT VISA INNEHÅLL</h1>
           </div>
           <script>document.getElementById("defaultOpen").click();</script>
     </body>

@@ -19,6 +19,30 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+/*---------------------------------------------------------------------------------------------*/
+/*                                      MAIN CLASSES                                           */
+/*---------------------------------------------------------------------------------------------*/
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
+    background-image: url(/img/stars.gif);
+    background-repeat: repeat-x;
+    background-size: 18vh;
+}
+.indexbody {
+    background-color: #FBF9FF;
+    overflow: hidden;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/*                                    LINK TAB CLASSES                                         */
+/*---------------------------------------------------------------------------------------------*/
+
 .liTab {
     float: left;
 }
@@ -28,7 +52,6 @@ body {
     text-align: center;
     padding: 1.46vh;
     text-decoration: none;
-    transition: 0.3s;
 }
 
 .liTab a:hover {
@@ -37,6 +60,9 @@ body {
     
 }
 
+/*---------------------------------------------------------------------------------------------*/
+/*                                     BUTTON CLASSES                                          */
+/*---------------------------------------------------------------------------------------------*/
 
 .mainButton{
     font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -58,23 +84,10 @@ body {
     display: inline-block;
     font-size: 5.55vh; 
 }
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: bisque;
-    background-image: url(/img/stars.gif);
-    background-repeat: repeat-x;
-    background-size: 18vh;
-}
-.indexbody {
-    background-color: #9F9ED0;
-    overflow: hidden;
-}
 
-/*DIV CLASSES*/
-
+/*---------------------------------------------------------------------------------------------*/
+/*                                      DIV CLASSES                                            */
+/*---------------------------------------------------------------------------------------------*/
 
 .mainCollumn {
     float: left;
@@ -88,7 +101,9 @@ body {
     padding: 1.5vw;
 }
 
-/*TEXT CLASSES*/
+/*---------------------------------------------------------------------------------------------*/
+/*                                      TEXT CLASSES                                           */
+/*---------------------------------------------------------------------------------------------*/
 
 .Big {
     font-family: 'Atkinson Hyperlegible', sans-serif;
@@ -110,10 +125,62 @@ body {
     color: #FFFCF9;
 }
 
-/*MISC. CLASSES*/
+/*---------------------------------------------------------------------------------------------*/
+/*                                  MISC. CLASSES                                              */
+/*---------------------------------------------------------------------------------------------*/
 
-.A {
+.HomeIcon {
     float: left;
     height: 9.8vh;
     width: 9.8vh;
 }
+.instructions {
+    text-align: center;
+    position: relative;
+    margin-top: 40vh;
+    color: #b7bdbc;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+/*                               TabFunction.js - TAB CLASSES                                          */
+/*---------------------------------------------------------------------------------------------*/
+
+.tab {
+    overflow: hidden;
+    margin-top: 1px solid;
+    background-color: #9395D3;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+  }
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1vh 6.76vh;
+    transition: 0.3s;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: bold;
+    font-size: 3.1vh;
+  }
+  .tab button:hover {
+    background-color: #B3B7EE;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+  }
+  .tab button.active {
+    background-color: #000807;
+    color: #FBF9FF;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+  }
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #FBF9FF;
+  }
+  .filler {
+    margin-left: 9.8vh;
+    background-color: #9395D3;
+    float: left;
+  }
