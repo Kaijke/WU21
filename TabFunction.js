@@ -1,5 +1,5 @@
 function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
+    var i, tabcontent, tablinks, tabcontent2, tablinks2;
 
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -13,7 +13,20 @@ function openTab(evt, tabName) {
   
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
-}
+  }
+/*    tabcontent2 = document.getElementsByClassName("tabcontent2");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent2[i].style.display = "none";
+    }
+
+    tablinks2 = document.getElementsByClassName("tablinks2");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks2[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+} */
 
 /* REFERENCE
 
