@@ -2,7 +2,7 @@
 /*
 font-family: 'Atkinson Hyperlegible', sans-serif;
 font-family: 'Cinzel', serif;
-PALETTE
+COLOUR PALETTE
     #000807 black
     #A2A3BB gray
     #9395D3 dark violet
@@ -100,7 +100,60 @@ body {
     -webkit-box-sizing: border-box;
     padding: 1.5vw;
 }
-
+.JakeTextHistoria {
+    width: 30vw;
+    height: 80vh;
+    float: left;
+    margin: 1vw;
+}
+.JIHT {
+    float: right;
+    width: 30vw;
+    height: auto;
+    border: .5vh solid #9395D3;
+    border-radius: 2vh;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-top: 1vh;
+    margin-right: 1vh;
+}
+.isaacbild {
+    float: left;
+    width: 15vw;
+    height: auto;
+    border: .5vh solid #9395D3;
+    border-radius: 2vh;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    
+}    
+.JakeHistoriaBildtext {
+    float: right;
+    width: 27vw;
+    margin-right: 2vw;
+    text-align: justify;
+}
+.JerryTEXTHISTORIA {
+    width: 40vw;
+    height: 90vh;
+    float: left;
+}
+.Jeremiahbild {
+    float: left;
+    width: 20vw;
+    height: auto;
+    border: .5vh solid #9395D3;
+    border-radius: 2vh;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-top: 10vh;
+    margin-left: 10vh;   
+}
 /*---------------------------------------------------------------------------------------------*/
 /*                                      TEXT CLASSES                                           */
 /*---------------------------------------------------------------------------------------------*/
@@ -146,6 +199,11 @@ body {
     margin-top: 10vh;
     color: black;
 }
+.filler {
+    margin-left: 9.8vh;
+    background-color: #9395D3;
+    float: left;
+}
 
 /*---------------------------------------------------------------------------------------------*/
 /*                               TabFunction.js - TAB CLASSES                                          */
@@ -185,71 +243,3 @@ body {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     background-color: #FBF9FF;
   }
- 
-
-
-  .filler {
-    margin-left: 9.8vh;
-    background-color: #9395D3;
-    float: left;
-  }
-
-
-
-
-  .JakeTextHistoria {
-    width: 30vw;
-    height: 80vh;
-    float: left;
-    margin: 1vw;
-}
-.JIHT {
-    float: right;
-    width: 30vw;
-    height: auto;
-    border: .5vh solid #9395D3;
-    border-radius: 2vh;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    margin-top: 1vh;
-    margin-right: 1vh;
-}
-.isaacbild {
-    float: left;
-    width: 15vw;
-    height: auto;
-    border: .5vh solid #9395D3;
-    border-radius: 2vh;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    margin-top: 10vh;
-    margin-left: 10vh;
-    
-}    
-.JakeHistoriaBildtext {
-    float: right;
-    width: 27vw;
-    margin-right: 2vw;
-    text-align: justify;
-}
-.JerryTEXTHISTORIA {
-    width: 40vw;
-    height: 90vh;
-    float: left;
-}
-
-.Jeremiahbild {
-    float: left;
-    width: 20vw;
-    height: auto;
-    border: .5vh solid #9395D3;
-    border-radius: 2vh;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    margin-top: 10vh;
-    margin-left: 10vh;
-    
-}    
