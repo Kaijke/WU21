@@ -1,5 +1,5 @@
 function openTab(evt, tabName) {
-    var i, tabcontent, tablinks, tabcontent2, tablinks2;
+    var i, tabcontent, tablinks;
 
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -10,46 +10,7 @@ function openTab(evt, tabName) {
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-  
+
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
   }
-/*    tabcontent2 = document.getElementsByClassName("tabcontent2");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent2[i].style.display = "none";
-    }
-
-    tablinks2 = document.getElementsByClassName("tablinks2");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks2[i].className = tablinks[i].className.replace(" active", "");
-    }
-
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active";
-} */
-
-/* REFERENCE
-
-function openCity(evt, cityName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
-  
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-  
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-  
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-
-}
-
-*/ 

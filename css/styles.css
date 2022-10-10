@@ -109,20 +109,20 @@ body {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
     font-size: 3vh;
-    color: #FFFCF9;
-    text-align: center;
+    color: #000807;
+    text-align: justify;
 }
 .Bigger {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: bold;
     font-size: 4vh;
-    color: #FFFCF9;
-    text-align: center;
+    color: #000807;
+    text-align: justify;
 }
 .Small {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 2vh;
-    color: #FFFCF9;
+    color: #000807;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -131,7 +131,7 @@ body {
 
 .HomeIcon {
     float: left;
-    height: 9.8vh;
+    height: 9.89vh;
     width: 9.8vh;
 }
 .instructions {
@@ -139,6 +139,12 @@ body {
     position: relative;
     margin-top: 40vh;
     color: #b7bdbc;
+}
+.welcome {
+    text-align: center;
+    position: relative;
+    margin-top: 10vh;
+    color: black;
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -179,8 +185,71 @@ body {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     background-color: #FBF9FF;
   }
+ 
+
+
   .filler {
     margin-left: 9.8vh;
     background-color: #9395D3;
     float: left;
   }
+
+
+
+
+  .JakeTextHistoria {
+    width: 30vw;
+    height: 80vh;
+    float: left;
+    margin: 1vw;
+}
+.JIHT {
+    float: right;
+    width: 30vw;
+    height: auto;
+    border: .5vh solid #9395D3;
+    border-radius: 2vh;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-top: 1vh;
+    margin-right: 1vh;
+}
+.isaacbild {
+    float: left;
+    width: 15vw;
+    height: auto;
+    border: .5vh solid #9395D3;
+    border-radius: 2vh;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    
+}    
+.JakeHistoriaBildtext {
+    float: right;
+    width: 27vw;
+    margin-right: 2vw;
+    text-align: justify;
+}
+.JerryTEXTHISTORIA {
+    width: 40vw;
+    height: 90vh;
+    float: left;
+}
+
+.Jeremiahbild {
+    float: left;
+    width: 20vw;
+    height: auto;
+    border: .5vh solid #9395D3;
+    border-radius: 2vh;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    
+}    
