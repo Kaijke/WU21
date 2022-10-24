@@ -183,8 +183,7 @@ body {
 
 .HomeIcon {
     float: left;
-    height: 9.81vh;
-    width: auto;
+    width: 9.81vh;
 }
 .instructions {
     text-align: center;
@@ -249,23 +248,19 @@ body {
 
 @media only screen and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
-    
-    .indexbody{
-        
-        background-color: tan;
-      }
       .filler {
-        margin-left: 0px;
+        margin-left: 0px; 
       }
       .tab button {
-        width: 3.5vh;
+        padding: 1vw;
     
     }
     .mainButton {
         font-size: 6vw;
+        width: 25vw; ;
     }
     .HomeIcon {
-        height: 13.2 vw;
+        width: 10 vw;
     }
 }
 
