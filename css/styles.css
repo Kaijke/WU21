@@ -29,7 +29,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: bisque;
     background-image: url(/img/stars.gif);
     background-repeat: repeat-x;
     background-size: 18vh;
@@ -185,7 +184,7 @@ body {
 .HomeIcon {
     float: left;
     height: 9.81vh;
-    width: 9.8vh;
+    width: auto;
 }
 .instructions {
     text-align: center;
@@ -243,3 +242,51 @@ body {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     background-color: #FBF9FF;
   }
+
+/*---------------------------------------------------------------------------------------------*/
+/*                               MEDIA QUERIES                                        */
+/*---------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    
+    .indexbody{
+        
+        background-color: tan;
+      }
+      .filler {
+        margin-left: 0px;
+      }
+      .tab button {
+        width: 3.5vh;
+    
+    }
+    .mainButton {
+        font-size: 6vw;
+    }
+    .HomeIcon {
+        height: 13.2 vw;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    
+    .indexbody{
+        background-color: blue;
+      }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    
+    .indexbody{
+        background-color: olive;
+      }
+}
